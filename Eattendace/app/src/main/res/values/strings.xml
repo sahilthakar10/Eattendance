@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Eattendace</string>
+
+
+    <string name="hint_enroll">Enter Enrollment No.</string>
+    <string name="hint_username">Enter Username</string>
+    <string name="hint_emplyeecode">Enter Employee Code</string>
+    <string name="hint_password">Enter Password.</string>
+    <string name="hint_mobile_no">Enter Mobile No.</string>
+    <string name="hint_company_name">Enter Company Name.</string>
+    <string name="hint_fullname">Enter Full Name.</string>
+    <string name="hint_dob">Enter DOB</string>
+    <string name="hint_touch">Touch FingerPrint Sensor</string>
+    <string name="signin_submit">Sign In</string>
+    <string name="more_info">More Info</string>
+    <string name="signup_submit">Sign Up</string>
+    <string name="button_add">Add Emp</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="text_Seller">Seller</string>
+    <string name="text_Student">Student</string>
+    <string name="new_user">Create New Account?</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="click_here"> Click Here</string>
+    <string name="rupees"> ₹</string>
+
+</resources>

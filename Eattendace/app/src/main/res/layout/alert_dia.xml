@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://s35spchemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".onboarding.OnBoarding">
+
+    <TextView
+        android:id="@+id/text_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center_horizontal"
+        android:text="@string/hint_emplyeecode"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textCursorDrawable="@android:color/white"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/noto_sans"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@android:color/white"
+        android:text="@string/hint_password"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/white"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@android:color/white"
+        android:cursorVisible="true"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp">
+
+        <View
+            android:layout_width="100sp"
+            android:layout_height="1sp"
+            android:background="@android:color/white"
+            android:layout_marginTop="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Or"
+            android:textSize="30sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:textColor="@android:color/white"
+            />
+        <View
+            android:layout_width="100sp"
+            android:layout_height="1sp"
+            android:background="@android:color/white"
+            android:layout_marginTop="20sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fingerprint_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
